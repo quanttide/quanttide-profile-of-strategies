@@ -1,18 +1,16 @@
 format: jb-book
 root: index.md
 parts:
-  - caption: 示例部分
+  - caption: 战略
     chapters:
-      - file: 1_example_chapter/README.md
+      - file: strategies/alliance/README.md
+      - file: strategies/company/README.md
         sections:
-          - file: 1_example_chapter/1_example_section/README.md
-            sections:
-              - file: 1_example_chapter/1_example_section/1_example_article.md
-              - file: 1_example_chapter/1_example_section/1_example_article2.md
-          - file: 1_example_chapter/2_example_article3.md
-  - caption: 示例部分2
+         - file: strategies/company/commercialization.md
+      - file: strategies/businesses/README.md
+        sections:
+         - file: strategies/businesses/course_service.md
+      - file: strategies/functions/README.md
+  - caption: 目标
     chapters:
-      - file: 2_example_chapter2/README.md
-        sections:
-          - file: 2_example_chapter2/1_example_section2/README.md
-      - file: 3_example_chapter3/README.md
+      - file: objectives/growth/README.md
