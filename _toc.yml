@@ -5,12 +5,18 @@ parts:
     chapters:
       - file: strategies/alliance/README.md
       - file: strategies/company/README.md
-        sections:
-         - file: strategies/company/commercialization.md
       - file: strategies/businesses/README.md
         sections:
          - file: strategies/businesses/course_service.md
       - file: strategies/functions/README.md
+  - caption: 战术
+    chapters:
+      - file: tactics/innovation/README.md
+      - file: tactics/commercialization/README.md
+        sections:
+         - file: tactics/commercialization/monetization.md
+      - file: tactics/governance/README.md
   - caption: 目标
     chapters:
+      - file: objectives/finance/README.md
       - file: objectives/growth/README.md
