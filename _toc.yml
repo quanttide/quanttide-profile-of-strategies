@@ -7,7 +7,11 @@ parts:
       - file: strategies/company/README.md
       - file: strategies/businesses/README.md
         sections:
-         - file: strategies/businesses/course_service.md
+        - file: strategies/businesses/higher_education/README.md
+          sections:
+          - file: strategies/businesses/higher_education/research_service.md
+          - file: strategies/businesses/higher_education/course_service.md
+        - file: strategies/businesses/enterprise_consulting.md
       - file: strategies/functions/README.md
   - caption: 战术
     chapters:
